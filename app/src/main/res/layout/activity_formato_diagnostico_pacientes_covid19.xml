@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Formato de seguimiento Covid19"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editfecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:foregroundTint="#FFFFFF"
+        android:gravity="center"
+        android:hint="Fecha Seguimiento"
+        android:inputType="text"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edithora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora Seguimiento"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editnombre_visitante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre Visitante"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editcargo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cargo"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editname_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre y apellidos paciente"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editdescrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descripcion de la actividad"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/editTipoidentificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tipo Documento"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editnumber_document"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Numero Documento"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editlugar_residencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Lugar Residencia"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editocupation_paciente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ocupacion"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edittele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+
+    <Button
+
+        android:id="@+id/btnGuardarFormato19"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Guardar"
+        android:textColor="@color/black"
+        app:iconTint="@color/teal_700" />
+
+
+
+</LinearLayout>
+

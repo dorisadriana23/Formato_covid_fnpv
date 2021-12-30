@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signos_Sintomas_actuales">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Preguntas de seleccion Multiple:"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="79dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="28sp"
+        android:text="Fiebre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="97dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="25dp"
+        android:text="Tos seca  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="244dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="25dp"
+        android:text="Secresiones Nasales  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435" />
+
+    /
+
+    <CheckBox
+        android:id="@+id/check4"
+        android:layout_width="245dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="20dp"
+        android:text="Dolor de garganta  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <CheckBox
+        android:id="@+id/check5"
+        android:layout_width="246dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="20dp"
+        android:text="Dificultad para respirar o falta de aire continuamente    "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
+
+    <CheckBox
+        android:id="@+id/check6"
+        android:layout_width="246dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="20dp"
+        android:text="Perdida de gusto u olfato "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <CheckBox
+        android:id="@+id/check7"
+        android:layout_width="97dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="20dp"
+        android:text="Nauseas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <CheckBox
+        android:id="@+id/check8"
+        android:layout_width="206dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="20dp"
+        android:text="Vomito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <CheckBox
+        android:id="@+id/check9"
+        android:layout_width="99dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="Diarrea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <CheckBox
+        android:id="@+id/check10"
+        android:layout_width="206dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="Somnolencia   "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <CheckBox
+        android:id="@+id/check11"
+        android:layout_width="246dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="20dp"
+        android:text="Malestar o Cansancio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <CheckBox
+        android:id="@+id/check12"
+        android:layout_width="246dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="20dp"
+        android:text="Dificultad en la orientacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <Button
+        android:onClick="regresarlogin"
+        android:id="@+id/btnregresar"
+        android:layout_width="276dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:text="Volver Inicio "
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/holo_blue_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911"
+        app:rippleColor="@color/teal_700" />
+
+    <Button
+        android:onClick="onclick"
+        android:id="@+id/btnvalidar"
+        android:layout_width="276dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+
+        android:text="Validar Encuesta"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/holo_blue_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775"
+        app:rippleColor="@color/teal_700" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Composición Familiar"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editnameapellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:foregroundTint="#FFFFFF"
+        android:gravity="center"
+        android:hint="Nombres y Apellidos"
+        android:inputType="text"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editidentificacionm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Identificacion"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editDescripcionActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descripcion de la actividad"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editparentesco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="Parentesco Con el paciente"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editEps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="EPS"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editmotivovisita"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Motivo Visita"
+        android:textColor="@color/black"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/editpcr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="PCR"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editfecha_toma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fecha Toma"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editAntigeno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Antigenos"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/btnGuardarFamiliar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Guardar"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>
+
